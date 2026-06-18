@@ -83,7 +83,3 @@ Run all tests using:
 ```bash
 python manage.py test
 ```
-
-## Author
-
-Developed as a Django learning project demonstrating CRUD functionality, database models, views, templates, static files and testing.
