@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="post-entry">
+        <h1>Create New Post</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Save">
+        </form>
+        <h2><a href="{% url "home" %}"></a></h2>
+    </div>
+{% endblock content %}
