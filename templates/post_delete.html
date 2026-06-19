@@ -4,9 +4,10 @@
 
 {% block content %}
 <h1>Delete Post</h1>
-<p>Are you sure you want to delete "{{ post.title }}"?</p>
+<p>Are you sure you want to delete"{{ object.title }}"?</p>
 <form method="post">
     {% csrf_token %}
     <input type="submit" value="Confirm">
 </form>
 {% endblock content %}
+
